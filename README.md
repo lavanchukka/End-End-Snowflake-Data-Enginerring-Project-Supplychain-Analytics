@@ -2,6 +2,7 @@
 This Project is an end-end implementation of data engineering in snowflake on supplychain data utilizing all of its services like Integrations, Warehouses, Schemas, Databases, Snowpipe, Streams, tasks, Streamlit, Zero Clone, Access Control and Governance.
 
 **SNOWFLAKE OBJECTS UTILIZED**
+
 Database · Schema · Warehouse · Resource Monitor · Storage Integration · Notification Integration · External Stage · File Format · Snowpipe · Transient Table · Permanent Table · Temporary Table · Variant · Stream · Task · Stored Procedure · Sequence · Dynamic Table · Secure View · Streamlit · Alert · Data Share · Reader Account · Zero-Copy Clone
 
 📦 DATA GENERATION
@@ -26,6 +27,7 @@ Database · Schema · Warehouse · Resource Monitor · Storage Integration · No
 
 
 ─────────────────── PART-2 ─────────────────────
+
 🥈 SILVER LAYER — STAGE 1
 → Append-Only Stream + Task
 → Stored Procedure — flattens JSON, validates, cleans data
@@ -47,6 +49,7 @@ Database · Schema · Warehouse · Resource Monitor · Storage Integration · No
 → Analysts query views not tables. Required for Data Sharing.
 
 ─────────────────── PART-3 ─────────────────────
+
 📊 STREAMLIT DASHBOARD
 → Built natively in Snowflake. 60-second refresh.
 → Trends, Breakdown and Suppliers tabs. Live KPIs.
